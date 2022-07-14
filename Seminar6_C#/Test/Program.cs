@@ -11,8 +11,7 @@ int[] Array(string text)
 {
     int[] array = new int[1];
 
-    int index = 0;
-    int col = 0;
+    int index = 0;    
     for (int i = 0; i < text.Length; i++)
     {
         string separateNumbers = String.Empty;
@@ -62,4 +61,3 @@ int CountPositiveNumbers(int[] massive)
     }
     return count;
 }
-
